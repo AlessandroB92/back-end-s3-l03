@@ -35,13 +35,15 @@
                 </div>
             </nav>
         </div>
-        <h1 class="text-white my-4">Acquista il tuo Biglietto</h1>
-        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-        </asp:RadioButtonList>
-        <asp:RadioButtonList ID="RadioButtonList2" runat="server">
-        </asp:RadioButtonList>
-        <asp:RadioButtonList ID="RadioButtonList3" runat="server">
-        </asp:RadioButtonList>
+        <h1 class="text-white mx-2 my-4">Acquista il tuo Biglietto</h1>
+        <input id="Text1" type="text" class="mx-2" placeholder="Nome..." /> <input id="Text1" type="text" class="mx-2" placeholder="Cognome..." /> 
     </form>
 </body>
 </html>
+<select id="Select1" class="mx-2 my-4">
+    <option>-</option>
+    <option>SALA SUD</option>
+    <option>SALA NORD</option>
+    <option>SALA EST</option>
+
+</select>
